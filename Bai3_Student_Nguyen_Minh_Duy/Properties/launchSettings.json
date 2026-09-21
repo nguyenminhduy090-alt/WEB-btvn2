@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Bai3_Student_Nguyen_Minh_Duy": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63792;http://localhost:63793"
+    }
+  }
+}

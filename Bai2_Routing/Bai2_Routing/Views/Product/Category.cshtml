@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Category";
+}
+
+<h2>Category</h2>
+
+@if(ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+else
+{
+    <h3>
+        Category = @ViewBag.CategoryName
+    </h3>
+}
